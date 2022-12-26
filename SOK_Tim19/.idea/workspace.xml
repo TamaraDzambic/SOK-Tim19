@@ -20,9 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/model/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOK_Tim19/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOK_Tim19/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOK_Tim19/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOK_Tim19/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOK_Tim19/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,32 +58,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JupyterTrust" id="16f17a8e-46aa-48de-9796-c34b66a1d155" />
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectId" id="2JSlsQxMhTCPggkSw5I0lF3ffTL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/anita/Desktop/SOK-project/tim19/SOK_Tim19"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\CoreApp" />
+      <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\Expressiveness" />
       <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19" />
       <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\SOK" />
       <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\appCore" />
-      <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\Core" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Shell Script.clean.sh">
     <configuration name="SOK_Tim19" type="Python.DjangoServer" factoryName="Django server">
       <module name="SOK_Tim19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +105,42 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="clean.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/clean.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.clean.sh" />
+        <item itemvalue="Shell Script.run.sh" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672079572283</updated>
       <workItem from="1672079573432" duration="4911000" />
-      <workItem from="1672086423678" duration="487000" />
+      <workItem from="1672087872866" duration="746000" />
     </task>
     <servers />
   </component>
@@ -122,9 +174,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="526" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1672085495776" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1672081514877">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1672087908594">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672081514877" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672087908594" />
   </component>
 </project>
