@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1056" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="op.projekat.projekat.klijent" />
+          <option value="op.projekat.projekat.*" />
+          <option value="op.projekat.klijent.projekat" />
+          <option value="op.projekat.kozmeticar.*" />
+          <option value="op.projekat.recepcioner.projekat" />
+          <option value="op.projekat.menadzer.*" />
+          <option value="op.projekat.salon.*" />
+          <option value="collections.Counter.sort" />
+          <option value="op.projekat_sv_43_2020.projekat_main.prokejat_" />
+          <option value="op.projekat_sv_43_2020.projekat_main.*" />
+          <option value="domaci.domaci.*" />
+          <option value="vezbe1.gaus" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
