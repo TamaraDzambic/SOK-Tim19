@@ -13,6 +13,7 @@ remove_eggs() {
 
 # remove build files from components
 remove_eggs Core
+remove_eggs JsonDataMaker
 
 # remove db
 cd Expressiveness
