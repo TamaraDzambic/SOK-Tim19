@@ -15,6 +15,7 @@ remove_eggs() {
 remove_eggs Core
 remove_eggs JsonDataMaker
 remove_eggs WikiDataMaker
+remove_eggs FileSystemDataMaker
 # remove db
 cd Expressiveness
 rm *.sqlite3

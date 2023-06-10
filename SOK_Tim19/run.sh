@@ -26,4 +26,5 @@ source clean.sh
 lay_egs Core
 lay_egs JsonDataMaker
 lay_egs WikiDataMaker
+lay_egs FileSystemDataMaker
 run_server Expressiveness

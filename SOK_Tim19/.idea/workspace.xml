@@ -20,21 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Core/Service/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/Service/load.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker/data_load_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker/data_load_file_system.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SOK_Tim19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SOK_Tim19.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/Service/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/model/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expressiveness/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/clean.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
     </list>
@@ -66,10 +61,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Core/Core/Service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker" />
       <recent name="C:\Users\ANJA\Desktop\tim19\SOK_Tim19\Core\Core\Service" />
       <recent name="C:\Users\ANJA\Desktop\tim19\SOK_Tim19\JsonDataMaker\JsonDataMaker" />
       <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19" />
@@ -171,5 +167,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
