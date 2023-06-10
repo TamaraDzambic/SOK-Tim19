@@ -14,7 +14,7 @@ remove_eggs() {
 # remove build files from components
 remove_eggs Core
 remove_eggs JsonDataMaker
-
+remove_eggs WikiDataMaker
 # remove db
 cd Expressiveness
 rm *.sqlite3

@@ -25,4 +25,5 @@ source clean.sh
 # build components
 lay_egs Core
 lay_egs JsonDataMaker
+lay_egs WikiDataMaker
 run_server Expressiveness
