@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,27 +23,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOK_Tim19/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOK_Tim19/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOK_Tim19/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOK_Tim19/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOK_Tim19/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/SOK_Tim19/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/view/load/basic_main_view.js" beforeDir="false" afterPath="$PROJECT_DIR$/BasicVisualizer/view/load/basic_main_view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetailedVisualizer/view/load/detailed_main_view.js" beforeDir="false" afterPath="$PROJECT_DIR$/DetailedVisualizer/view/load/detailed_main_view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker/data_load_wiki.py" beforeDir="false" afterPath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker/data_load_wiki.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/bin/django-admin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/bin/sqlformat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/Service/load.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/Service/load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/Service/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/Service/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/static/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/static/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/data_load_file_system.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/WikiDataMaker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/WikiDataMaker/data_load_wiki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/WikiDataMaker-0.1-py3.9.egg/WikiDataMaker/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/EGG-INFO/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/EGG-INFO/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/EGG-INFO/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/compatibility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/current_thread_executor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/sync.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/asgiref-3.7.2-py3.9.egg/asgiref/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/easy-install.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/EGG-INFO/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/EGG-INFO/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/EGG-INFO/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/EGG-INFO/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/cli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/engine/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/engine/filter_stack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/engine/grouping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/engine/statement_splitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/filters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/filters/aligned_indent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/filters/others.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/filters/output.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/filters/reindent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/filters/right_margin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/filters/tokens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/formatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/keywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/lexer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/tokens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/sqlparse-0.4.4-py3.9.egg/sqlparse/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/typing_extensions-4.6.3-py3.9.egg/EGG-INFO/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/typing_extensions-4.6.3-py3.9.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/typing_extensions-4.6.3-py3.9.egg/EGG-INFO/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/typing_extensions-4.6.3-py3.9.egg/EGG-INFO/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/typing_extensions-4.6.3-py3.9.egg/typing_extensions.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +125,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JupyterTrust" id="16f17a8e-46aa-48de-9796-c34b66a1d155" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2JSlsQxMhTCPggkSw5I0lF3ffTL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/BasicVisualizer" />
+      <recent name="$PROJECT_DIR$/Core/Core/resources" />
+      <recent name="$PROJECT_DIR$/Core/Core/Service" />
+      <recent name="$PROJECT_DIR$/Core/Core/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\CoreApp" />
@@ -81,7 +155,7 @@
       <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\appCore" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.clean.sh">
+  <component name="RunManager" selected="Shell Script.run.sh">
     <configuration name="SOK_Tim19" type="Python.DjangoServer" factoryName="Django server">
       <module name="SOK_Tim19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,21 +211,24 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Shell Script.clean.sh" />
         <item itemvalue="Shell Script.run.sh" />
+        <item itemvalue="Shell Script.clean.sh" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="" />
       <created>1672079572283</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672079572283</updated>
       <workItem from="1672079573432" duration="4911000" />
       <workItem from="1672087872866" duration="746000" />
+      <workItem from="1686411522373" duration="345000" />
+      <workItem from="1686413776632" duration="5280000" />
+      <workItem from="1686501313072" duration="307000" />
+      <workItem from="1686507014113" duration="773000" />
     </task>
     <servers />
   </component>
@@ -168,15 +245,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="526" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672085495776">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="526" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1672085495776" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1672087908594">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672087908594" />
   </component>
 </project>

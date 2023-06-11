@@ -1,0 +1,17 @@
+{% extends "bird_view.html" %}
+{% block tree %}
+    <div id="tree" class="tree"></div>
+<script>
+
+    var treeData = {% for node in loadedGraph.nodes %}
+                        {% if node.node_id == "0" %}
+                            {%include "node.html" %}
+                        {% endif %}
+                    {% endfor %}
+
+
+    {% autoescape off %}{{ tree_script }}{% endautoescape %}
+</script>
+
+
+{% endblock %}

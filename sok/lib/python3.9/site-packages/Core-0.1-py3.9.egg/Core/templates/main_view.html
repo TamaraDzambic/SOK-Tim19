@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block main %}
+    <svg id="main_view">
+    </svg>
+<script>
+    {#console.log("MAIN1");#}
+    {#var nodes_main = [#}
+    {##}
+    {#            {% for node_main in graph.nodes %}#}
+    {#                {#}
+    {#                    name:{{ node_main.node_id }},#}
+    {#                    naziv:"{{ node_main.name }}",#}
+    {#                    attributes: {{%for key, value in node_main.attributes.items %}#}
+    {#                                "{{key}}" : "{{value}}",#}
+    {#                                {%endfor%}}#}
+    {#                }#}
+    {##}
+    {#                {%if forloop.counter < graph.nodes|length %}#}
+    {#                ,#}
+    {#                {% endif %}#}
+    {##}
+    {#            {% endfor %}#}
+    {#            ];#}
+    {#var links = [#}
+    {##}
+    {#            {% for edge in graph.edges %}#}
+    {#                {#}
+    {#                    source:{{ edge.source.node_id }},#}
+    {#                    target: {{ edge.destination.node_id }}#}
+    {#                }#}
+    {##}
+    {#                {%if forloop.counter < graph.edges|length %}#}
+    {#                ,#}
+    {#                {% endif %}#}
+    {##}
+    {#            {% endfor %}#}
+    {#            ];#}
+
+
+    {% autoescape off %}{{ main_script }}{% endautoescape %}
+
+
+
+</script>
+{% endblock %}

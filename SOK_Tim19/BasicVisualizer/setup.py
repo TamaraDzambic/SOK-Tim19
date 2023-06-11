@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
+
 setup(
-    name="BasicVisualizer",
+    name="basic_visualizer",
     version="0.1",
     packages=find_packages(),
-    # requiring Django later than 2.1
-    install_requires=['Django>=2.1'],
-    # Installing package data related to packge
-    # https://docs.python.org/3/distutils/setupscript.html#installing-package-data
-    # data_files specify additional files that are not closely related to the
-    # source code of the package.
-    # https://docs.python.org/3/distutils/setupscript.html#installing-additional-files
-    package_data={'BasicVisualizer': ['static/*.css', 'static/*.js', 'static/*.html', 'templates/*.html']},
+    install_requires=['Core >= 0.1'],
+    namespace_packages=['view.load'],
+    package_data={'view.load': ['basic_main_view.js']},
+    entry_points={
+        'view.load':
+            ['basic_visualizer=view.load.basicVisualizer:BasicVisualizer'],
+    },
     zip_safe=False
 )

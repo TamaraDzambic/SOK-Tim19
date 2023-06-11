@@ -1,16 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="DetailedVisualizer",
+    name="detailed_visualizer",
     version="0.1",
     packages=find_packages(),
-    # requiring Django later than 2.1
-    install_requires=['Django>=2.1'],
-    # Installing package data related to packge
-    # https://docs.python.org/3/distutils/setupscript.html#installing-package-data
-    # data_files specify additional files that are not closely related to the
-    # source code of the package.
-    # https://docs.python.org/3/distutils/setupscript.html#installing-additional-files
-    package_data={'DetailedVisualizer': ['static/*.css', 'static/*.js', 'static/*.html', 'templates/*.html']},
+    install_requires=['Core >= 0.1'],
+    namespace_packages=['view.load'],
+    package_data={'view.load': ['detailed_main_view.js']},
+    entry_points={
+        'view.load':
+            ['detailed_visualizer=view.load.detailedVisualizer:DetailedVisualizer'],
+    },
     zip_safe=False
 )
