@@ -12,10 +12,10 @@ remove_eggs() {
 }
 
 # remove build files from components
-remove_eggs XMLDataMaker
 remove_eggs Core
 remove_eggs JsonDataMaker
 remove_eggs WikiDataMaker
+remove_eggs XMLDataMaker
 remove_eggs FileSystemDataMaker
 remove_eggs BasicVisualizer
 remove_eggs DetailedVisualizer

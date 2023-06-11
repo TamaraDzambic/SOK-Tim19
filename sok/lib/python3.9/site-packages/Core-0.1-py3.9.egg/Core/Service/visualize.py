@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from Core.Core.Service.base import ServiceBase
+from Core.Service.base import ServiceBase
 
 
 class VisualizeData(ServiceBase):

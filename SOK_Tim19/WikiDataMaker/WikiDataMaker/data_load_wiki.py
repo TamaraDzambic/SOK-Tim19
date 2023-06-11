@@ -46,7 +46,7 @@ class LoadWikipedia(LoadData):
 
         self.nodes.append(root)
         self.edges = self.create_edges(root)
-        self.create_additional_edges()
+        # self.create_additional_edges()
         self.graph = Graph(self.nodes, self.edges)
 
         return self.graph
