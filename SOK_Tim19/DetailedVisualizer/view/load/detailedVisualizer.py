@@ -1,6 +1,6 @@
 import pkg_resources
 
-from Core.Core.Service.visualize import VisualizeData
+from Core.Service.visualize import VisualizeData
 
 
 class DetailedVisualizer(VisualizeData):
