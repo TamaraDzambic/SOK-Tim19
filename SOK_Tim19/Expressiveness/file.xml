@@ -1,0 +1,36 @@
+<potvrda_o_uradjenom_projektu datum="2018-10-22" broj_strana="1/1">
+
+	<podaci_o_instituciji>
+		<univerzitet>Univerzitet u Novom Sadu</univerzitet>
+		<fakultet>Fakultet Tehničkih Nauka</fakultet>
+			<adresa>
+				<mesto>Novi Sad</mesto>
+				<postanski_broj>21000</postanski_broj>
+				<ulica>Trg Dositeja Obradovića</ulica>
+				<broj>6</broj>
+			</adresa>
+	</podaci_o_instituciji>
+
+	<podaci_o_studentu>
+		<ime>Petar</ime>
+		<prezime>Petrović</prezime>
+		<broj_indeksa>RA 123/2014</broj_indeksa>
+		 <odsek>Računarstvo i automatika</odsek>
+		<smer>Računarske nauke i informatika</smer>
+		 <usmerenje/>
+	</podaci_o_studentu>
+
+	<podaci_o_projektu>
+		<naslov jezik="srpski">Perin master rad</naslov>
+		<naslov jezik="engleski">Peter's MSc thesis</naslov>
+		<ocena>10</ocena>
+		<datum_odbrane>2018-21-07</datum_odbrane>
+	</podaci_o_projektu>
+
+	<podaci_o_mentoru>
+		<ime>Jovan</ime>
+		<prezime>Jovanović</prezime>
+		<titula>dr</titula>
+	</podaci_o_mentoru>
+
+</potvrda_o_uradjenom_projektu>

@@ -48,6 +48,9 @@ $(document).ready(function (){
       if(selectedFile.name.endsWith('.json')){
         sourceId = "json-data-load";
       }
+      else if(selectedFile.name.endsWith('.html')){
+        sourceId = "wikipedia-data-load";
+      }
       else if(selectedFile.name.endsWith('.xml')){
         sourceId = "xml-data-load";
       }

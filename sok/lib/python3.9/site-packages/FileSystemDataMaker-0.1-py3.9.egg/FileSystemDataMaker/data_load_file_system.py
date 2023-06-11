@@ -1,8 +1,8 @@
 import os
 import itertools
 
-from Core.Core.models import Graph, Node, Edge, EdgeType
-from Core.Core.Service.load import LoadData
+from Core.models import Graph, Node, Edge, EdgeType
+from Core.Service.load import LoadData
 
 
 class LoadFileSystem(LoadData):

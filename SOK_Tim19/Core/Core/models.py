@@ -52,6 +52,7 @@ class Graph:
                 searchedNodes.append(node)
                 continue
             for key, value in node.attributes.items():
+                value = str(value)
                 if value.lower().find(searchVal.lower()) > -1:
                     node.node_id = str(next(id_iter))
                     searchedNodes.append(node)
@@ -78,7 +79,7 @@ class Graph:
         for node in self.nodes:
             for key, valueNode in node.attributes.items():
                 if key == attr:
-                    if self.compare(operator, valueInput.lower(), valueNode.lower()):
+                    if self.compare(operator, str(valueInput).lower(), str(valueNode).lower()):
                         node.node_id = str(next(id_iter))
                         filterNodes.append(node)
                         break
@@ -93,6 +94,7 @@ class Graph:
         if valueInput.isnumeric() and valueNode.isnumeric():
             valueInput = float(valueInput)
             valueNode = float(valueNode)
+
         if op == "==":
             return valueInput == valueNode
         elif op == "!=":

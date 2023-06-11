@@ -75,7 +75,7 @@ def main_view(request, id):
 
     if apps.get_app_config('Core').graph is not None:
         tree_view(request)
-        view_id = "complex_visualizer"
+        view_id = "detailed_visualizer"
         if id == "basic":
             view_id = "basic_visualizer"
         chosen_visualizer = None
@@ -96,6 +96,42 @@ def main_view(request, id):
         })
     else:
         return redirect('index')
+
+def search(request):
+    # reload
+    input = request.GET["input"]
+
+    graph = apps.get_app_config('Core').searchedGraph
+    if graph is None:
+        graph = apps.get_app_config('Core').graph
+        if graph is None:
+            return HttpResponse(status=404)
+
+    searchedGraph = graph.search(input)
+    apps.get_app_config('Core').searchedGraph = searchedGraph
+    graph_json = jsonpickle.encode(searchedGraph, unpicklable=False)
+
+    return JsonResponse(graph_json, safe=False)
+
+def filter(request):
+    # reload
+    input = request.GET["input"]
+    filterGraph = apps.get_app_config('Core').searchedGraph
+    if filterGraph is None:
+        filterGraph = apps.get_app_config('Core').graph
+        if filterGraph is None:
+            return HttpResponse(status=404)
+
+    filteredGraph = filterGraph.filter(input)
+    apps.get_app_config('Core').searchedGraph = filteredGraph
+    graph_json = jsonpickle.encode(filteredGraph, unpicklable=False)
+    return JsonResponse(graph_json, safe=False)
+
+def restart(request):
+    graph = apps.get_app_config('Core').graph
+    apps.get_app_config('Core').searchedGraph = copy.deepcopy(graph)
+    graph_json = jsonpickle.encode(graph, unpicklable=False)
+    return JsonResponse(graph_json, safe=False)
 
 
 def get_children(request):
