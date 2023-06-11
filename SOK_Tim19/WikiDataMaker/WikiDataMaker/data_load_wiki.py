@@ -2,12 +2,12 @@ import itertools
 import requests
 from bs4 import BeautifulSoup
 
-from Core.Core.models import Graph, Node, Edge, EdgeType
-from Core.Core.Service.load import LoadData
+from Core.models import Graph, Node, Edge, EdgeType
+from Core.Service.load import LoadData
 
 
 class LoadWikipedia(LoadData):
-    def _init_(self):
+    def __init__(self):
         self.nodes = []
         self.edges = []
         self.graph = None
@@ -30,14 +30,18 @@ class LoadWikipedia(LoadData):
 
     def load(self, page):
         print("Wikipedia")
-        url = f"https://en.wikipedia.org/wiki/{page}"
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
+        with open(page, "r") as f:
+            html_content = f.read()
+
+        root = Node("root", str(next(self.id_iter)))
+        self.nodes.append(root)
+
+        soup = BeautifulSoup(html_content, 'html.parser')
         root_node = Node(page, str(next(self.id_iter)))
 
         for link in soup.find_all("a"):
             href = link.get('href')
-            if href and href.startswith('/wiki/'):
+            if href and '/wiki/' in href:
                 node = Node(href, str(next(self.id_iter)))
                 self.nodes.append(node)
                 root_node.children.append(node)
