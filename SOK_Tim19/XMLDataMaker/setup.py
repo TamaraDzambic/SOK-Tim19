@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="JsonDataMaker",
+    name="XMLDataMaker",
     version="0.1",
     packages=find_packages(),
     install_requires=['Core>=0.1'],
     entry_points={
         'data.load':
-            ['json_load=JsonDataMaker.data_load_json:LoadJSON']
+            ['xml_load=XMLDataMaker.data_load_xml:LoadXML']
     },
     zip_safe=True
 )
