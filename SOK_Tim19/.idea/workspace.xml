@@ -23,17 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/XMLDataMaker/XMLDataMaker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDataMaker/XMLDataMaker/data_load_xml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDataMaker/XMLDataMaker/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDataMaker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDataMaker/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SOK_Tim19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SOK_Tim19.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/static/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/static/file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/clean.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +162,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

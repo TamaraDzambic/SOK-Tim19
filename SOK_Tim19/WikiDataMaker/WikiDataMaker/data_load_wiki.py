@@ -33,23 +33,22 @@ class LoadWikipedia(LoadData):
         with open(page, "r") as f:
             html_content = f.read()
 
-        root = Node("root", str(next(self.id_iter)))
-        self.nodes.append(root)
-
         soup = BeautifulSoup(html_content, 'html.parser')
-        root_node = Node(page, str(next(self.id_iter)))
+        root = Node(page, str(next(self.id_iter)))
 
         for link in soup.find_all("a"):
             href = link.get('href')
             if href and '/wiki/' in href:
                 node = Node(href, str(next(self.id_iter)))
+                node.attributes["text"] = href
                 self.nodes.append(node)
-                root_node.children.append(node)
+                root.children.append(node)
 
-        self.nodes.append(root_node)
-        self.edges = self.create_edges(root_node)
-
+        self.nodes.append(root)
+        self.edges = self.create_edges(root)
+        self.create_additional_edges()
         self.graph = Graph(self.nodes, self.edges)
+
         return self.graph
 
     def create_edges(self, node):
