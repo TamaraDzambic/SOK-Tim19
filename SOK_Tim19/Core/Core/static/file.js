@@ -51,8 +51,8 @@ $(document).ready(function (){
       else if(selectedFile.name.endsWith('.html')){
         sourceId = "wikipedia-data-load";
       }
-      else if(selectedFile.name.endsWith('')){
-        sourceId = "filesystem-data-load";
+      else if(selectedFile.name.endsWith('.xml')){
+        sourceId = "xml-data-load";
       }
       else{
         alert("Unsupported file type");

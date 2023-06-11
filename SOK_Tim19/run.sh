@@ -29,4 +29,5 @@ lay_egs WikiDataMaker
 lay_egs FileSystemDataMaker
 lay_egs BasicVisualizer
 lay_egs DetailedVisualizer
+lay_egs XMLDataMaker
 run_server Expressiveness
