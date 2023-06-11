@@ -52,6 +52,7 @@ class Graph:
                 searchedNodes.append(node)
                 continue
             for key, value in node.attributes.items():
+                value = str(value)
                 if value.lower().find(searchVal.lower()) > -1:
                     node.node_id = str(next(id_iter))
                     searchedNodes.append(node)
