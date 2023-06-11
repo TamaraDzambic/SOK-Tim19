@@ -1,7 +1,7 @@
 
 import pkg_resources
 
-from d3_primeri.services.visualize import VisualizeData
+from Core.Service.visualize import VisualizeData
 
 
 class BasicVisualizer(VisualizeData):

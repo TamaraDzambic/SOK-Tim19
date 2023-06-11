@@ -16,6 +16,8 @@ remove_eggs Core
 remove_eggs JsonDataMaker
 remove_eggs WikiDataMaker
 remove_eggs FileSystemDataMaker
+remove_eggs BasicVisualizer
+remove_eggs DetailedVisualizer
 # remove db
 cd Expressiveness
 rm *.sqlite3

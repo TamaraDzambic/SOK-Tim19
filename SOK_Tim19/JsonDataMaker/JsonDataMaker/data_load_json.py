@@ -1,7 +1,7 @@
 import json
-from Core.Core.models import Graph, Node, Edge, EdgeType
+from Core.models import Graph, Node, Edge, EdgeType
 import itertools
-from Core.Core.Service.load import LoadData
+from Core.Service.load import LoadData
 
 
 class LoadJSON(LoadData):
