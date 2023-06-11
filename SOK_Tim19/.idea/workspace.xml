@@ -23,46 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Core/Service/visualize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/static/bird_view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/static/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/static/tree_view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/bird_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/main_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/node.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/nodes_main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core/templates/tree_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/load/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/load/basicVisualizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/load/basic_main_view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicVisualizer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicVisualizer/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicVisualizer/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expressiveness/Expressiveness/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expressiveness/Expressiveness/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonDataMaker/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/EGG-INFO/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/EGG-INFO/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/model/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/model/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/FileSystemDataMaker-0.1-py3.9.egg/FileSystemDataMaker/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/data_load_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/migrations/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,17 +80,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "/Users/tamaradzambic/Desktop/tim19/SOK_Tim19/Core/Core/resources",
+    "last_opened_file_path": "/Users/tamaradzambic/Desktop/tim19/SOK_Tim19/BasicVisualizer",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BasicVisualizer" />
       <recent name="$PROJECT_DIR$/Core/Core/resources" />
       <recent name="$PROJECT_DIR$/Core/Core/Service" />
       <recent name="$PROJECT_DIR$/Core/Core/static" />
       <recent name="$PROJECT_DIR$/Core/Core/templates" />
-      <recent name="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tamar\Desktop\SOK\tim19\SOK_Tim19\CoreApp" />
