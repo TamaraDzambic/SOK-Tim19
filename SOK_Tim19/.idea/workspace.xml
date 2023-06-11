@@ -23,35 +23,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/load/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/load/basicVisualizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicVisualizer/view/load/basic_main_view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SOK_Tim19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SOK_Tim19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicVisualizer/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/BasicVisualizer/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicVisualizer/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicVisualizer/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonDataMaker/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonDataMaker/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/Core-0.1-py3.9.egg/Core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/EGG-INFO/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/data_load_json.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sok/lib/python3.9/site-packages/JsonDataMaker-0.1-py3.9.egg/JsonDataMaker/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.egg-info/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/Service/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/Service/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/Service/load.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/Service/visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/static/bird_view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/static/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/static/tree_view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/bird_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/main_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/nodes_main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/templates/tree_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/build/lib/Core/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/dist/Core-0.1-py3.9.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expressiveness/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker.egg-info/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/FileSystemDataMaker.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/build/lib/FileSystemDataMaker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/build/lib/FileSystemDataMaker/data_load_file_system.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/build/lib/FileSystemDataMaker/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileSystemDataMaker/dist/FileSystemDataMaker-0.1-py3.9.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/JsonDataMaker.egg-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/build/lib/JsonDataMaker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/build/lib/JsonDataMaker/data_load_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/build/lib/JsonDataMaker/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDataMaker/dist/JsonDataMaker-0.1-py3.9.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker.egg-info/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WikiDataMaker/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker/data_load_wiki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/WikiDataMaker/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WikiDataMaker/build/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/build/lib/WikiDataMaker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WikiDataMaker/build/lib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/build/lib/WikiDataMaker/data_load_wiki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/build/lib/WikiDataMaker/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/dist/WikiDataMaker-0.1-py3.9.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WikiDataMaker/setup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +118,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "/Users/tamaradzambic/Desktop/tim19/SOK_Tim19/BasicVisualizer",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;/Users/tamaradzambic/Desktop/tim19/SOK_Tim19/BasicVisualizer&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/BasicVisualizer" />
@@ -164,7 +204,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="87ff262b-c595-490f-9403-66f6509dabbb" name="Default Changelist" comment="" />
+      <changelist id="e1772280-62ca-4600-b9d0-4e8c2a90e8a8" name="Changes" comment="" />
       <created>1672079572283</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -173,6 +213,7 @@
       <workItem from="1672087872866" duration="746000" />
       <workItem from="1686411522373" duration="345000" />
       <workItem from="1686413776632" duration="5280000" />
+      <workItem from="1686501313072" duration="307000" />
     </task>
     <servers />
   </component>
